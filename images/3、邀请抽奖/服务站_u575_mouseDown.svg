@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="129px" height="69px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip365">
+      <path d="M 0 21.025  L 0 7.975  C 0 3.50900000000002  1.94914027149323 0  4.42986425339366 0  L 84.5701357466063 0  C 87.0508597285068 0  89 3.50900000000002  89 7.975  L 89 21.025  C 89 25.491  87.0508597285068 29  84.5701357466063 29  L 47.3344935607379 29  L 4.42986425339366 29  C 1.94914027149323 29  0 25.491  0 21.025  Z " fill-rule="evenodd" />
+    </mask>
+    <filter x="810px" y="682px" width="129px" height="69px" filterUnits="userSpaceOnUse" id="filter366">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="10" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.6  0 0 0 0 0.6  0 0 0 0 0.6  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget367">
+      <path d="M 0 21.025  L 0 7.975  C 0 3.50900000000002  1.94914027149323 0  4.42986425339366 0  L 84.5701357466063 0  C 87.0508597285068 0  89 3.50900000000002  89 7.975  L 89 21.025  C 89 25.491  87.0508597285068 29  84.5701357466063 29  L 47.3344935607379 29  L 4.42986425339366 29  C 1.94914027149323 29  0 25.491  0 21.025  Z " fill-rule="nonzero" fill="#177ce2" stroke="none" transform="matrix(1 0 0 1 830 702 )" />
+      <path d="M 0 21.025  L 0 7.975  C 0 3.50900000000002  1.94914027149323 0  4.42986425339366 0  L 84.5701357466063 0  C 87.0508597285068 0  89 3.50900000000002  89 7.975  L 89 21.025  C 89 25.491  87.0508597285068 29  84.5701357466063 29  L 47.3344935607379 29  L 4.42986425339366 29  C 1.94914027149323 29  0 25.491  0 21.025  Z " stroke-width="2" stroke="#2a67fe" fill="none" transform="matrix(1 0 0 1 830 702 )" mask="url(#clip365)" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -810 -682 )">
+    <use xlink:href="#widget367" filter="url(#filter366)" />
+    <use xlink:href="#widget367" />
+  </g>
+</svg>
